@@ -29,7 +29,11 @@ interface Item {
   title: string,
   items?: Item[],
 }
-
+interface Items {
+  id: string,
+  title: string,
+  items?: Item[],
+}
 const sidebarItems: Item[] = [
   {
     id: 'tree-title-customization-item-1',
